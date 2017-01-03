@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440300A006</building_id>
+    <gateway_id>01</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>207</sequence>
+    <parser>yes</parser>
+    <time>20160520100000</time>
+    <meter id="55" name="HQRXC812-01" conn="conn">
+      <function id="0055" name="HQRXC812-01-0053-0054" coding="05000" error="192" sample_time="20160520095420">110.000000</function>
+      <function id="0056" name="HQRXC812-01-0055-0056" coding="05000" error="192" sample_time="20160520095410">220.000000</function>
+      <function id="0057" name="HQRXC812-01-0057-0058" coding="05000" error="192" sample_time="20160520095400">11220.000000</function>
+      <function id="0058" name="HQRXC812-01-0059-0060" coding="05000" error="192" sample_time="20160520095350">110.000000</function>
+      <function id="0059" name="HQRXC812-01-0061-0062" coding="05000" error="192" sample_time="20160520095340">111230.000000</function>
+      <function id="0060" name="HQRXC812-01-0063-0064" coding="05000" error="192" sample_time="20160520095330">3220</function>
+      <function id="0061" name="HQRXC812-01-0065-0066" coding="05000" error="192" sample_time="20160520095320">3230.000000</function>
+      <function id="0062" name="HQRXC812-01-0067-0068" coding="05000" error="192" sample_time="20160520095310">3430</function>
+      <function id="0063" name="HQRXC812-01-0069-0070" coding="05000" error="192" sample_time="20160520095259">450.000000</function>
+    </meter>
+  </data>
+</root>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440300A002</building_id>
+    <gateway_id>02</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>2369</sequence>
+    <parser>yes</parser>
+    <time>20160520100000</time>
+    <meter id="02" name="1#变压器" conn="conn">
+      <function id="0002" name="000000000001-1090" coding="01E00" error="192" sample_time="20160520095502">157196</function>
+      <function id="0089" name="000000000088-1090" coding="01E00" error="192" sample_time="20160520095500">234.199997</function>
+      <function id="0090" name="000000000089-1090" coding="01E00" error="192" sample_time="20160520095500">233.100006</function>
+      <function id="0091" name="000000000090-1090" coding="01E00" error="192" sample_time="20160520095500">233.600006</function>
+      <function id="0092" name="000000000091-1090" coding="01E00" error="192" sample_time="20160520095500">76</function>
+      <function id="0093" name="000000000092-1090" coding="01E00" error="192" sample_time="20160520095500">83</function>
+      <function id="0094" name="000000000093-1090" coding="01E00" error="192" sample_time="20160520095500">97</function>
+    </meter>
+    <meter id="03" name="2#变压器" conn="conn">
+      <function id="0003" name="000000000002-1090" coding="01E00" error="192" sample_time="20160520095502">143208</function>
+      <function id="0095" name="000000000094-1090" coding="01E00" error="192" sample_time="20160520095501">233.699997</function>
+      <function id="0096" name="000000000095-1090" coding="01E00" error="192" sample_time="20160520095501">233.500000</function>
+      <function id="0097" name="000000000096-1090" coding="01E00" error="192" sample_time="20160520095501">233.600006</function>
+      <function id="0098" name="000000000097-1090" coding="01E00" error="192" sample_time="20160520095501">69</function>
+      <function id="0099" name="000000000098-1090" coding="01E00" error="192" sample_time="20160520095501">60</function>
+      <function id="0100" name="000000000099-1090" coding="01E00" error="192" sample_time="20160520095500">67</function>
+    </meter>
+    <meter id="04" name="四层室外机4-3AP" conn="conn">
+      <function id="0004" name="000000000003-1090" coding="01C30" error="192" sample_time="20160520095502">8316.799805</function>
+    </meter>
+    <meter id="05" name="四层室外机4-2AP" conn="conn">
+      <function id="0005" name="000000000004-1090" coding="01C30" error="192" sample_time="20160520095502">6118.399902</function>
+    </meter>
+    <meter id="06" name="十一层室外机11-2AP" conn="conn">
+      <function id="0006" name="000000000005-1090" coding="01C30" error="192" sample_time="20160520095502">22971.000000</function>
+    </meter>
+    <meter id="07" name="二楼UPS主用" conn="conn">
+      <function id="0007" name="000000000006-1090" coding="01A10" error="192" sample_time="20160520095502">10498.000000</function>
+    </meter>
+    <meter id="08" name="地下室水泵-1-1AT" conn="conn">
+      <function id="0008" name="000000000007-1090" coding="01A10" error="192" sample_time="20160520095501">0</function>
+    </meter>
+    <meter id="09" name="地下室-1-2AT" conn="conn">
+      <function id="0009" name="000000000008-1090" coding="01A10" error="192" sample_time="20160520095501">3</function>
+    </meter>
+    <meter id="10" name="一层-1AT" conn="conn">
+      <function id="0010" name="000000000009-1090" coding="01A10" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="11" name="一层消防值班室1-2AT" conn="conn">
+      <function id="0011" name="000000000010-1090" coding="01D10" error="192" sample_time="20160520095501">548.000000</function>
+    </meter>
+    <meter id="12" name="二层2-1AT" conn="conn">
+      <function id="0012" name="000000000011-1090" coding="01A10" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="13" name="二层2-2AT" conn="conn">
+      <function id="0013" name="000000000012-1090" coding="01A10" error="192" sample_time="20160520095501">111.800003</function>
+    </meter>
+    <meter id="14" name="三层3-1AT" conn="conn">
+      <function id="0014" name="000000000013-1090" coding="01A10" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="15" name="三层3-2AT" conn="conn">
+      <function id="0015" name="000000000014-1090" coding="01A10" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="16" name="十层10-1AT" conn="conn">
+      <function id="0016" name="000000000015-1090" coding="01A10" error="192" sample_time="20160520095501">25363.599609</function>
+    </meter>
+    <meter id="17" name="九层9-1AT" conn="conn">
+      <function id="0017" name="000000000016-1090" coding="01A10" error="192" sample_time="20160520095501">194.199997</function>
+    </meter>
+    <meter id="18" name="十一层11-1AT" conn="conn">
+      <function id="0018" name="000000000017-1090" coding="01A10" error="192" sample_time="20160520095501">608.400024</function>
+    </meter>
+    <meter id="19" name="十一层11-2AT" conn="conn">
+      <function id="0019" name="000000000018-1090" coding="01A10" error="192" sample_time="20160520095501">2120.000000</function>
+    </meter>
+    <meter id="20" name="一层1-3AT" conn="conn">
+      <function id="0020" name="000000000019-1090" coding="01A10" error="192" sample_time="20160520095501">1210.000000</function>
+    </meter>
+    <meter id="21" name="预留训练场地1" conn="conn">
+      <function id="0021" name="000000000020-1090" coding="01A10" error="192" sample_time="20160520095501">2220.000000</function>
+    </meter>
+    <meter id="22" name="预留训练场地2" conn="conn">
+      <function id="0022" name="000000000021-1090" coding="01A10" error="192" sample_time="20160520095501">111.000000</function>
+    </meter>
+    <meter id="23" name="11-3AP" conn="conn">
+      <function id="0023" name="000000000022-1090" coding="01A10" error="192" sample_time="20160520095501">13115.200195</function>
+    </meter>
+    <meter id="24" name="一层照明1-1AL" conn="conn">
+      <function id="0024" name="000000000023-1090" coding="01A10" error="192" sample_time="20160520095501">1172.400024</function>
+    </meter>
+    <meter id="25" name="一层照明1-2AL" conn="conn">
+      <function id="0025" name="000000000024-1090" coding="01A10" error="192" sample_time="20160520095501">2586.300049</function>
+    </meter>
+    <meter id="26" name="二层照明2-1AL" conn="conn">
+      <function id="0026" name="000000000025-1090" coding="01A10" error="192" sample_time="20160520095501">3573.899902</function>
+    </meter>
+    <meter id="27" name="三层放映室3-2AP" conn="conn">
+      <function id="0027" name="000000000026-1090" coding="01A10" error="192" sample_time="20160520095501">96.300003</function>
+    </meter>
+    <meter id="28" name="二层2-3AP" conn="conn">
+      <function id="0028" name="000000000027-1090" coding="01A10" error="192" sample_time="20160520095501">563.500000</function>
+    </meter>
+    <meter id="29" name="九层照明9-1AL" conn="conn">
+      <function id="0029" name="000000000028-1090" coding="01A10" error="192" sample_time="20160520095501">3208.800049</function>
+    </meter>
+    <meter id="30" name="八层照明8-1AL" conn="conn">
+      <function id="0030" name="000000000029-1090" coding="01A10" error="192" sample_time="20160520095501">2890.199951</function>
+    </meter>
+    <meter id="31" name="七层照明7-1AL" conn="conn">
+      <function id="0031" name="000000000030-1090" coding="01A10" error="192" sample_time="20160520095501">4609.200195</function>
+    </meter>
+    <meter id="32" name="六层照明6-1AL" conn="conn">
+      <function id="0032" name="000000000031-1090" coding="01A10" error="192" sample_time="20160520095501">4197.899902</function>
+    </meter>
+    <meter id="33" name="二层照明2-2AL" conn="conn">
+      <function id="0033" name="000000000032-1090" coding="01A10" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="34" name="五层照明5-1AL" conn="conn">
+      <function id="0034" name="000000000033-1090" coding="01A10" error="192" sample_time="20160520095500">2052.000000</function>
+    </meter>
+    <meter id="35" name="四层照明4-1AL" conn="conn">
+      <function id="0035" name="000000000034-1090" coding="01A10" error="192" sample_time="20160520095500">393.899994</function>
+    </meter>
+    <meter id="36" name="三层照明3-1AL" conn="conn">
+      <function id="0036" name="000000000035-1090" coding="01A10" error="192" sample_time="20160520095500">722.700012</function>
+    </meter>
+    <meter id="37" name="十层照明10-1AL" conn="conn">
+      <function id="0037" name="000000000036-1090" coding="01A10" error="192" sample_time="20160520095500">1085.699951</function>
+    </meter>
+    <meter id="38" name="三层照明3-1AP" conn="conn">
+      <function id="0038" name="000000000037-1090" coding="01A10" error="192" sample_time="20160520095500">434.399994</function>
+    </meter>
+    <meter id="39" name="一层1-1AP" conn="conn">
+      <function id="0039" name="000000000038-1090" coding="01A10" error="192" sample_time="20160520095500">0.000000</function>
+    </meter>
+    <meter id="40" name="2-1AP" conn="conn">
+      <function id="0040" name="000000000126-1090" coding="01A10" error="192" sample_time="20160520095500">977.099976</function>
+    </meter>
+    <meter id="41" name="一层1-2AP" conn="conn">
+      <function id="0041" name="000000000040-1090" coding="01A10" error="192" sample_time="20160520095500">3164.100098</function>
+    </meter>
+    <meter id="42" name="二层2-2AP" conn="conn">
+      <function id="0042" name="000000000041-1090" coding="01A10" error="192" sample_time="20160520095500">955.599976</function>
+    </meter>
+    <meter id="43" name="太阳能" conn="conn">
+      <function id="0043" name="000000000042-1090" coding="01A10" error="192" sample_time="20160520095500">6719.000000</function>
+    </meter>
+    <meter id="44" name="四层4-1AP" conn="conn">
+      <function id="0044" name="000000000043-1090" coding="01A10" error="192" sample_time="20160520095500">225.399994</function>
+    </meter>
+    <meter id="45" name="(5-7)-2AP" conn="conn">
+      <function id="0045" name="000000000044-1090" coding="01A10" error="192" sample_time="20160520095504">1860.000000</function>
+    </meter>
+    <meter id="46" name="图书馆" conn="conn">
+      <function id="0046" name="000000000045-1090" coding="01A10" error="192" sample_time="20160520095504">4424.399902</function>
+    </meter>
+    <meter id="47" name="EPS" conn="conn">
+      <function id="0047" name="000000000046-1090" coding="01A10" error="192" sample_time="20160520095504">4118.000000</function>
+    </meter>
+    <meter id="48" name="回路编号2-12-1" conn="conn">
+      <function id="0048" name="000000000047-1090" coding="01A10" error="192" sample_time="20160520095504">53426.398438</function>
+    </meter>
+    <meter id="49" name="八楼办公8-1AP" conn="conn">
+      <function id="0049" name="000000000048-1090" coding="01A10" error="192" sample_time="20160520095504">644.599976</function>
+    </meter>
+    <meter id="50" name="九楼办公9-1AP" conn="conn">
+      <function id="0050" name="000000000049-1090" coding="01A10" error="192" sample_time="20160520095504">749.000000</function>
+    </meter>
+    <meter id="51" name="十楼办公10-1AP" conn="conn">
+      <function id="0051" name="000000000050-1090" coding="01A10" error="192" sample_time="20160520095504">973.799988</function>
+    </meter>
+    <meter id="52" name="10-2AP" conn="conn">
+      <function id="0052" name="000000000051-1090" coding="01A10" error="192" sample_time="20160520095504">615.900024</function>
+    </meter>
+    <meter id="53" name="体能训练中心" conn="conn">
+      <function id="0053" name="000000000052-1090" coding="01A10" error="192" sample_time="20160520095504">4497.200195</function>
+    </meter>
+    <meter id="54" name="地下室-1-3AP" conn="conn">
+      <function id="0054" name="000000000053-1090" coding="01A10" error="192" sample_time="20160520095503">4526.700195</function>
+    </meter>
+    <meter id="55" name="十层演播室10-2ALE" conn="conn">
+      <function id="0055" name="000000000054-1090" coding="01A10" error="192" sample_time="20160520095503">1.200000</function>
+    </meter>
+    <meter id="56" name="重要负荷段" conn="conn">
+      <function id="0056" name="000000000055-1090" coding="01C20" error="192" sample_time="20160520095503">67673</function>
+    </meter>
+    <meter id="57" name="十一层二部客梯11-1AP" conn="conn">
+      <function id="0057" name="000000000056-1090" coding="01A10" error="192" sample_time="20160520095503">2752.399902</function>
+    </meter>
+    <meter id="58" name="食堂电梯" conn="conn">
+      <function id="0058" name="000000000057-1090" coding="01C10" error="192" sample_time="20160520095503">1258.800049</function>
+    </meter>
+    <meter id="59" name="三层3-2AT" conn="conn">
+      <function id="0059" name="000000000058-1090" coding="01A10" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="60" name="十层10-1AT" conn="conn">
+      <function id="0060" name="000000000059-1090" coding="01A10" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="61" name="1-3AT" conn="conn">
+      <function id="0061" name="000000000060-1090" coding="01A10" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="62" name="九层9-1AT" conn="conn">
+      <function id="0062" name="000000000061-1090" coding="01A10" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="63" name="消防电梯11-1AT" conn="conn">
+      <function id="0063" name="000000000062-1090" coding="01C10" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="64" name="十一层稳压泵11-2AT" conn="conn">
+      <function id="0064" name="000000000063-1090" coding="01C20" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="65" name="地下室机房-1-1AP" conn="conn">
+      <function id="0065" name="000000000064-1090" coding="01A10" error="192" sample_time="20160520095500">238.199997</function>
+    </meter>
+    <meter id="66" name="地下室配电室-1-2AP" conn="conn">
+      <function id="0066" name="000000000065-1090" coding="01A10" error="192" sample_time="20160520095500">13.500000</function>
+    </meter>
+    <meter id="67" name="备用电源跳水馆" conn="conn">
+      <function id="0067" name="000000000066-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="68" name="地下室水泵房-1-1AT" conn="conn">
+      <function id="0068" name="000000000067-1090" coding="01C20" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="69" name="一层消防控制1-2AT" conn="conn">
+      <function id="0069" name="000000000068-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="70" name="二层2-1AT" conn="conn">
+      <function id="0070" name="000000000069-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="71" name="二层2-2AT(2)" conn="conn">
+      <function id="0071" name="000000000070-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="72" name="一层1-1AT(2)" conn="conn">
+      <function id="0072" name="000000000071-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="73" name="三层3-1AT(2)" conn="conn">
+      <function id="0073" name="000000000072-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="74" name="食堂地下室RAP1" conn="conn">
+      <function id="0074" name="000000000073-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="75" name="宿舍楼EAP" conn="conn">
+      <function id="0075" name="000000000074-1090" coding="01A10" error="192" sample_time="20160520095513">1555</function>
+    </meter>
+    <meter id="76" name="地下靶场AP2" conn="conn">
+      <function id="0076" name="000000000075-1090" coding="01A10" error="192" sample_time="20160520095513">904.799988</function>
+    </meter>
+    <meter id="77" name="舞台" conn="conn">
+      <function id="0077" name="000000000076-1090" coding="01A10" error="192" sample_time="20160520095513">0</function>
+    </meter>
+    <meter id="78" name="地下室-1-2AT(2)" conn="conn">
+      <function id="0078" name="000000000077-1090" coding="01A10" error="192" sample_time="20160520095513">0.000000</function>
+    </meter>
+    <meter id="79" name="一层1-2AT" conn="conn">
+      <function id="0079" name="000000000078-1090" coding="01A10" error="192" sample_time="20160520095512">0.000000</function>
+    </meter>
+    <meter id="80" name="EPS(2)" conn="conn">
+      <function id="0080" name="000000000079-1090" coding="01A10" error="128" sample_time="20160520095512">0.000000</function>
+    </meter>
+    <meter id="81" name="运动场" conn="conn">
+      <function id="0081" name="000000000080-1090" coding="01A10" error="192" sample_time="20160520095503">513.599976</function>
+    </meter>
+    <meter id="82" name="跳水馆动力照明" conn="conn">
+      <function id="0082" name="000000000081-1090" coding="01A10" error="128" sample_time="20160520095503">6768</function>
+    </meter>
+    <meter id="83" name="健身房EAP" conn="conn">
+      <function id="0083" name="000000000082-1090" coding="01D50" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="84" name="健身房EAL" conn="conn">
+      <function id="0084" name="000000000083-1090" coding="01D50" error="192" sample_time="20160520095503">0.000000</function>
+    </meter>
+    <meter id="85" name="地下靶场AP1" conn="conn">
+      <function id="0085" name="000000000084-1090" coding="01A10" error="192" sample_time="20160520095503">21902</function>
+    </meter>
+    <meter id="86" name="跳水馆水过滤" conn="conn">
+      <function id="0086" name="000000000085-1090" coding="01A10" error="192" sample_time="20160520095503">34025.601562</function>
+    </meter>
+    <meter id="87" name="树池照明" conn="conn">
+      <function id="0087" name="000000000086-1090" coding="01A10" error="192" sample_time="20160520095503">583.500000</function>
+    </meter>
+    <meter id="88" name="模拟街" conn="conn">
+      <function id="0088" name="000000000087-1090" coding="01D60" error="192" sample_time="20160520095503">742.000000</function>
+    </meter>
+    <meter id="89" name="5#变压器进线" conn="conn">
+      <function id="0101" name="000000000127-1090" coding="01E00" error="192" sample_time="20160520095500">4245</function>
+    </meter>
+    <meter id="90" name="调光2AP2" conn="conn">
+      <function id="0102" name="000000000128-1090" coding="01A10" error="192" sample_time="20160520095500">0.000000</function>
+    </meter>
+    <meter id="91" name="调光2AP1" conn="conn">
+      <function id="0103" name="000000000129-1090" coding="01A10" error="192" sample_time="20160520095500">353.600006</function>
+    </meter>
+    <meter id="92" name="调光2AP3" conn="conn">
+      <function id="0104" name="000000000130-1090" coding="01A10" error="192" sample_time="20160520095500">696.000000</function>
+    </meter>
+    <meter id="93" name="舞台机械" conn="conn">
+      <function id="0105" name="000000000131-1090" coding="01A10" error="192" sample_time="20160520095500">2380.800049</function>
+    </meter>
+  </data>
+</root>

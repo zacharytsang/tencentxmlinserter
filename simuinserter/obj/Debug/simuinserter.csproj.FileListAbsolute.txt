@@ -1,0 +1,11 @@
+D:\devel\simuinserter\simuinserter\bin\Debug\simuinserter.exe.config
+D:\devel\simuinserter\simuinserter\bin\Debug\simuinserter.exe
+D:\devel\simuinserter\simuinserter\bin\Debug\simuinserter.pdb
+D:\devel\simuinserter\simuinserter\obj\Debug\simuinserter.exe
+D:\devel\simuinserter\simuinserter\obj\Debug\simuinserter.pdb
+D:\Desktop\simuinserter-multi\simuinserter\bin\Debug\simuinserter.exe.config
+D:\Desktop\simuinserter-multi\simuinserter\obj\Debug\simuinserter.exe
+D:\Desktop\simuinserter-multi\simuinserter\obj\Debug\simuinserter.pdb
+D:\Desktop\simuinserter-multi\simuinserter\bin\Debug\simuinserter.exe
+D:\Desktop\simuinserter-multi\simuinserter\bin\Debug\simuinserter.pdb
+D:\Desktop\simuinserter-multi\simuinserter\obj\Debug\simuinserter.csprojResolveAssemblyReference.cache

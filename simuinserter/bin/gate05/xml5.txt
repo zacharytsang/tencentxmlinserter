@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440301A254</building_id>
+    <gateway_id>05</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>sequencexxxx</sequence>
+    <parser>yes</parser>
+    <time>time1xxxx</time>
+    <meter id="02" name="12FNANC" conn="conn">
+      <function id="0002" name="159-0" coding="02001" error="192" sample_time="time2xxxx">15500.000000</function>
+    </meter>
+    <meter id="03" name="12FCFYS" conn="conn">
+      <function id="0003" name="160-0" coding="02002" error="192" sample_time="time2xxxx">3581500.000000</function>
+    </meter>
+    <meter id="04" name="12FNVC" conn="conn">
+      <function id="0004" name="150-0" coding="02003" error="192" sample_time="time2xxxx">10.000000</function>
+    </meter>
+    <meter id="05" name="12FCSJ" conn="conn">
+      <function id="0005" name="162-0" coding="02004" error="192" sample_time="time2xxxx">97400.000000</function>
+    </meter>
+    <meter id="06" name="12FYBN" conn="conn">
+      <function id="0006" name="163-0" coding="02005" error="192" sample_time="time2xxxx">14900.000000</function>
+    </meter>
+    <meter id="07" name="13FNANC" conn="conn">
+      <function id="0007" name="164-0" coding="02001" error="192" sample_time="time2xxxx">142600.000000</function>
+    </meter>
+    <meter id="08" name="13FNVC" conn="conn">
+      <function id="0008" name="165-0" coding="02002" error="192" sample_time="time2xxxx">150600.000000</function>
+    </meter>
+    <meter id="09" name="13FCSJ" conn="conn">
+      <function id="0009" name="166-0" coding="02003" error="192" sample_time="time2xxxx">28200.000000</function>
+    </meter>
+    <meter id="10" name="14FNANC" conn="conn">
+      <function id="0010" name="167-0" coding="02001" error="192" sample_time="time2xxxx">49400.000000</function>
+    </meter>
+    <meter id="11" name="14FNVC" conn="conn">
+      <function id="0011" name="168-0" coding="02002" error="192" sample_time="time2xxxx">49400.000000</function>
+    </meter>
+    <meter id="12" name="14FCSJ" conn="conn">
+      <function id="0012" name="169-0" coding="02003" error="192" sample_time="time2xxxx">22900.000000</function>
+    </meter>
+    <meter id="13" name="14FCFYS" conn="conn">
+      <function id="0013" name="170-0" coding="02004" error="192" sample_time="time2xxxx">1838000.000000</function>
+    </meter>
+    <meter id="14" name="4-12FSHYS" conn="conn">
+      <function id="0014" name="173-0" coding="02001" error="192" sample_time="time2xxxx">2497400.000000</function>
+    </meter>
+    <meter id="15" name="4-12FZYS" conn="conn">
+      <function id="0015" name="179-0" coding="02002" error="192" sample_time="time2xxxx">69100.000000</function>
+    </meter>
+  </data>
+</root>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440301A254</building_id>
+    <gateway_id>01</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>sequencexxxx</sequence>
+    <parser>yes</parser>
+    <time>time1xxxx</time>
+    <meter id="02" name="1#ZJX" conn="conn">
+      <function id="0002" name="026-856" coding="01E00" error="192" sample_time="time2xxxx">6521964</function>
+    </meter>
+    <meter id="03" name="ZL1-7FZM" conn="conn">
+      <function id="0003" name="027-3928" coding="01A10" error="192" sample_time="time2xxxx">239.299957</function>
+      <function id="0004" name="027-3942" coding="01A10" error="192" sample_time="time2xxxx">161.911240</function>
+      <function id="0005" name="027-3956" coding="01A10" error="192" sample_time="time2xxxx">163.602905</function>
+      <function id="0006" name="027-3924" coding="01A10" error="192" sample_time="time2xxxx">397.129425</function>
+      <function id="0007" name="027-3938" coding="01A10" error="192" sample_time="time2xxxx">398.346344</function>
+      <function id="0008" name="027-3952" coding="01A10" error="192" sample_time="time2xxxx">399.188354</function>
+      <function id="0210" name="027-3960" coding="01A10" error="192" sample_time="time2xxxx">398627456.000000</function>
+    </meter>
+    <meter id="04" name="ZQKT" conn="conn">
+      <function id="0009" name="028-3928" coding="01C10" error="192" sample_time="time2xxxx">55.985222</function>
+      <function id="0010" name="028-3942" coding="01C10" error="192" sample_time="time2xxxx">13.162222</function>
+      <function id="0011" name="028-3956" coding="01C10" error="192" sample_time="time2xxxx">35.688213</function>
+      <function id="0012" name="028-3924" coding="01C10" error="192" sample_time="time2xxxx">397.234558</function>
+      <function id="0013" name="028-3938" coding="01C10" error="192" sample_time="time2xxxx">398.366669</function>
+      <function id="0014" name="028-3952" coding="01C10" error="192" sample_time="time2xxxx">399.301453</function>
+      <function id="0211" name="028-3960" coding="01C10" error="192" sample_time="time2xxxx">81903952.000000</function>
+    </meter>
+    <meter id="05" name="DQKT" conn="conn">
+      <function id="0015" name="029-3928" coding="01C10" error="192" sample_time="time2xxxx">18.550430</function>
+      <function id="0016" name="029-3942" coding="01C10" error="192" sample_time="time2xxxx">1.602661</function>
+      <function id="0017" name="029-3956" coding="01C10" error="192" sample_time="time2xxxx">25.584776</function>
+      <function id="0018" name="029-3924" coding="01C10" error="192" sample_time="time2xxxx">397.128510</function>
+      <function id="0019" name="029-3938" coding="01C10" error="192" sample_time="time2xxxx">398.433228</function>
+      <function id="0020" name="029-3952" coding="01C10" error="192" sample_time="time2xxxx">399.308716</function>
+      <function id="0212" name="029-3960" coding="01C10" error="192" sample_time="time2xxxx">24841596.000000</function>
+    </meter>
+    <meter id="06" name="14FCFYD" conn="conn">
+      <function id="0021" name="030-3928" coding="01D30" error="192" sample_time="time2xxxx">150.167160</function>
+      <function id="0022" name="030-3942" coding="01D30" error="192" sample_time="time2xxxx">144.413559</function>
+      <function id="0023" name="030-3956" coding="01D30" error="192" sample_time="time2xxxx">145.419586</function>
+      <function id="0024" name="030-3924" coding="01D30" error="192" sample_time="time2xxxx">396.991364</function>
+      <function id="0025" name="030-3938" coding="01D30" error="192" sample_time="time2xxxx">398.191376</function>
+      <function id="0026" name="030-3952" coding="01D30" error="192" sample_time="time2xxxx">398.906586</function>
+      <function id="0213" name="030-3960" coding="01D30" error="192" sample_time="time2xxxx">282973952.000000</function>
+    </meter>
+    <meter id="07" name="HJYD" conn="conn">
+      <function id="0027" name="031-3928" coding="01A30" error="192" sample_time="time2xxxx">10.276452</function>
+      <function id="0028" name="031-3942" coding="01A30" error="192" sample_time="time2xxxx">6.120930</function>
+      <function id="0029" name="031-3956" coding="01A30" error="192" sample_time="time2xxxx">6.739190</function>
+      <function id="0030" name="031-3924" coding="01A30" error="192" sample_time="time2xxxx">397.375671</function>
+      <function id="0031" name="031-3938" coding="01A30" error="192" sample_time="time2xxxx">398.493500</function>
+      <function id="0032" name="031-3952" coding="01A30" error="192" sample_time="time2xxxx">399.370148</function>
+      <function id="0214" name="031-3960" coding="01A30" error="192" sample_time="time2xxxx">4319094.000000</function>
+    </meter>
+    <meter id="08" name="QL1-2FZM" conn="conn">
+      <function id="0033" name="032-3928" coding="01A30" error="192" sample_time="time2xxxx">12.501512</function>
+      <function id="0034" name="032-3942" coding="01A30" error="192" sample_time="time2xxxx">10.065656</function>
+      <function id="0035" name="032-3956" coding="01A30" error="192" sample_time="time2xxxx">10.849165</function>
+      <function id="0036" name="032-3924" coding="01A30" error="192" sample_time="time2xxxx">397.161774</function>
+      <function id="0037" name="032-3938" coding="01A30" error="192" sample_time="time2xxxx">398.317444</function>
+      <function id="0038" name="032-3952" coding="01A30" error="192" sample_time="time2xxxx">399.128998</function>
+      <function id="0215" name="032-3960" coding="01A30" error="192" sample_time="time2xxxx">102680712.000000</function>
+    </meter>
+    <meter id="09" name="ZL1-10FGGZM" conn="conn">
+      <function id="0039" name="033-3928" coding="01A10" error="192" sample_time="time2xxxx">27.708891</function>
+      <function id="0040" name="033-3942" coding="01A10" error="192" sample_time="time2xxxx">12.789051</function>
+      <function id="0041" name="033-3956" coding="01A10" error="192" sample_time="time2xxxx">21.570999</function>
+      <function id="0042" name="033-3924" coding="01A10" error="192" sample_time="time2xxxx">397.303802</function>
+      <function id="0043" name="033-3938" coding="01A10" error="192" sample_time="time2xxxx">398.401276</function>
+      <function id="0044" name="033-3952" coding="01A10" error="192" sample_time="time2xxxx">399.171722</function>
+      <function id="0216" name="033-3960" coding="01A10" error="192" sample_time="time2xxxx">44274588.000000</function>
+    </meter>
+    <meter id="10" name="ZL11-20FGGZM" conn="conn">
+      <function id="0045" name="034-3928" coding="01A10" error="192" sample_time="time2xxxx">6.864291</function>
+      <function id="0046" name="034-3942" coding="01A10" error="192" sample_time="time2xxxx">16.640982</function>
+      <function id="0047" name="034-3956" coding="01A10" error="192" sample_time="time2xxxx">20.157965</function>
+      <function id="0048" name="034-3924" coding="01A10" error="192" sample_time="time2xxxx">397.112701</function>
+      <function id="0049" name="034-3938" coding="01A10" error="192" sample_time="time2xxxx">398.405670</function>
+      <function id="0050" name="034-3952" coding="01A10" error="192" sample_time="time2xxxx">399.108551</function>
+      <function id="0217" name="034-3960" coding="01A10" error="192" sample_time="time2xxxx">22723876.000000</function>
+    </meter>
+    <meter id="11" name="1#LL" conn="conn">
+      <function id="2222" name="026-856" coding="01E00" error="192" sample_time="time2xxxx">1521</function>
+    </meter>
+    <meter id="12" name="2#LL" conn="conn">
+      <function id="1112" name="026-856" coding="01E00" error="192" sample_time="time2xxxx">2964</function>
+    </meter>
+    <meter id="13" name="3#LL" conn="conn">
+      <function id="3332" name="026-856" coding="01E00" error="192" sample_time="time2xxxx">564</function>
+    </meter>
+
+  </data>
+</root>

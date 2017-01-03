@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440300G060</building_id>
+    <gateway_id>01</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>sequencexxxx</sequence>
+    <parser>yes</parser>
+    <time>time2xxxx</time>
+    <meter id="02" name="000006950639" conn="conn">
+      <function id="0002" name="000006950639-1090" coding="01B1C" error="192" sample_time="time2xxxx">4058.560059</function>
+    </meter>
+    <meter id="03" name="000007090605" conn="conn">
+      <function id="0003" name="000007090605-1090" coding="01C10" error="192" sample_time="time2xxxx">3744.540039</function>
+    </meter>
+    <meter id="04" name="000007090608" conn="conn">
+      <function id="0004" name="000007090608-1090" coding="01B1B" error="192" sample_time="time2xxxx">4834.029785</function>
+    </meter>
+    <meter id="05" name="000007090606" conn="conn">
+      <function id="0005" name="000007090606-1090" coding="01B1B" error="192" sample_time="time2xxxx">2250.959961</function>
+    </meter>
+    <meter id="06" name="000006950643" conn="conn">
+      <function id="0006" name="000006950643-1090" coding="01B1B" error="192" sample_time="time2xxxx">4293.359863</function>
+    </meter>
+    <meter id="07" name="000000250235" conn="conn">
+      <function id="0007" name="000000250235-1090" coding="01D60" error="192" sample_time="time2xxxx">9468.349609</function>
+    </meter>
+    <meter id="08" name="000006950722" conn="conn">
+      <function id="0008" name="000006950722-1090" coding="01C10" error="192" sample_time="time2xxxx">1209.790039</function>
+    </meter>
+    <meter id="09" name="000007090604" conn="conn">
+      <function id="0009" name="000007090604-1090" coding="01C10" error="192" sample_time="time2xxxx">888.359985</function>
+    </meter>
+    <meter id="10" name="000006950734" conn="conn">
+      <function id="0010" name="000006950736-1090" coding="01B1D" error="192" sample_time="time2xxxx">1391.910034</function>
+    </meter>
+    <meter id="11" name="000006950736" conn="conn">
+      <function id="0011" name="000006950734-1090" coding="01C20" error="192" sample_time="time2xxxx">4597.319824</function>
+    </meter>
+    <meter id="12" name="000007090601" conn="conn">
+      <function id="0012" name="000007090601-1090" coding="01B1C" error="192" sample_time="time2xxxx">2311.919922</function>
+    </meter>
+    <meter id="13" name="000000000062" conn="conn">
+      <function id="0030" name="000000000062-1090" coding="01E00" error="192" sample_time="time2xxxx">21058.339844</function>
+      <function id="0031" name="000000000062-2091" coding="01E00" error="192" sample_time="time2xxxx">0.000000</function>
+      <function id="0032" name="000000000062-11B6" coding="01E00" error="192" sample_time="time2xxxx">226.000000</function>
+      <function id="0033" name="000000000062-12B6" coding="01E00" error="192" sample_time="time2xxxx">226.000000</function>
+      <function id="0034" name="000000000062-13B6" coding="01E00" error="192" sample_time="time2xxxx">226.000000</function>
+      <function id="0035" name="000000000062-21B6" coding="01E00" error="192" sample_time="time2xxxx">0.860000</function>
+      <function id="0036" name="000000000062-22B6" coding="01E00" error="192" sample_time="time2xxxx">0.820000</function>
+      <function id="0037" name="000000000062-23B6" coding="01E00" error="192" sample_time="time2xxxx">0.820000</function>
+      <function id="0038" name="000000000062-50B6" coding="01E00" error="192" sample_time="time2xxxx">0.907000</function>
+    </meter>
+    <meter id="14" name="000000250237" conn="conn">
+      <function id="0013" name="000000250237-1090" coding="01E00" error="192" sample_time="time2xxxx">7550.890137</function>
+    </meter>
+    <meter id="15" name="000000000009" conn="conn">
+      <function id="0039" name="000000000009-1090" coding="01E00" error="192" sample_time="time2xxxx">25348.330078</function>
+      <function id="0040" name="000000000009-2091" coding="01E00" error="192" sample_time="time2xxxx">0.000000</function>
+      <function id="0041" name="000000000009-11B6" coding="01E00" error="192" sample_time="time2xxxx">227.000000</function>
+      <function id="0042" name="000000000009-12B6" coding="01E00" error="192" sample_time="time2xxxx">226.000000</function>
+      <function id="0043" name="000000000009-13B6" coding="01E00" error="192" sample_time="time2xxxx">226.000000</function>
+      <function id="0044" name="000000000009-21B6" coding="01E00" error="192" sample_time="time2xxxx">0.830000</function>
+      <function id="0045" name="000000000009-22B6" coding="01E00" error="192" sample_time="time2xxxx">0.870000</function>
+      <function id="0046" name="000000000009-23B6" coding="01E00" error="192" sample_time="time2xxxx">0.880000</function>
+      <function id="0047" name="000000000009-50B6" coding="01E00" error="192" sample_time="time2xxxx">0.930000</function>
+    </meter>
+    <meter id="16" name="000000250239" conn="conn">
+      <function id="0014" name="000000250239-1090" coding="01E00" error="192" sample_time="time2xxxx">10377.320312</function>
+    </meter>
+    <meter id="17" name="000007090607" conn="conn">
+      <function id="0015" name="000007090607-1090" coding="01B20" error="192" sample_time="time2xxxx">1176.430054</function>
+    </meter>
+    <meter id="18" name="000006095642" conn="conn">
+      <function id="0016" name="000006950642-1090" coding="01B20" error="192" sample_time="time2xxxx">1346.449951</function>
+    </meter>
+    <meter id="19" name="000000210865" conn="conn">
+      <function id="0017" name="000000210865-1090" coding="01A10" error="192" sample_time="time2xxxx">10767.559570</function>
+    </meter>
+    <meter id="20" name="000000210866" conn="conn">
+      <function id="0018" name="000000210866-1090" coding="01A10" error="192" sample_time="time2xxxx">9698.799805</function>
+    </meter>
+    <meter id="21" name="000000210868" conn="conn">
+      <function id="0019" name="000000210868-1090" coding="01A30" error="192" sample_time="time2xxxx">64.709999</function>
+    </meter>
+    <meter id="22" name="000000210869" conn="conn">
+      <function id="0020" name="000000210869-1090" coding="01A10" error="192" sample_time="time2xxxx">17236.810547</function>
+    </meter>
+    <meter id="23" name="000006950621" conn="conn">
+      <function id="0029" name="000006950621-1090" coding="01B1C" error="192" sample_time="time2xxxx">2716.840088</function>
+    </meter>
+    <meter id="24" name="000000210867" conn="conn">
+      <function id="0021" name="000000210867-1090" coding="01A30" error="192" sample_time="time2xxxx">4089.739990</function>
+    </meter>
+    <meter id="25" name="000000250238" conn="conn">
+      <function id="0022" name="000000250238-1090" coding="01A10" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="26" name="000000210870" conn="conn">
+      <function id="0023" name="000000210870-1090" coding="01A10" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="27" name="000000250236" conn="conn" />
+    <meter id="28" name="000007090603" conn="conn">
+      <function id="0024" name="000007090603-1090" coding="01B1A" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="29" name="000006950637" conn="conn">
+      <function id="0025" name="000006950637-1090" coding="01B1A" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="30" name="000006950739" conn="conn">
+      <function id="0026" name="000006950739-1090" coding="01B1A" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="31" name="000006950738" conn="conn">
+      <function id="0027" name="000006950738-1090" coding="01B1A" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="32" name="000007090602" conn="conn">
+      <function id="0028" name="000007090602-1090" coding="01B1B" error="192" sample_time="time2xxxx">-1.000000</function>
+    </meter>
+    <meter id="33" name="HQRXC812-01" conn="conn">
+      <function id="0048" name="HQRXC812-01-0000-0001" coding="05000" error="192" sample_time="time2xxxx">499.882935</function>
+      <function id="0049" name="HQRXC812-01-0008-0009" coding="05000" error="192" sample_time="time2xxxx">2005467373</function>
+      <function id="0050" name="HQRXC812-01-0010-0011" coding="05000" error="192" sample_time="time2xxxx">0.166040</function>
+      <function id="0051" name="HQRXC812-01-0016-0017" coding="05000" error="192" sample_time="time2xxxx">395968512</function>
+      <function id="0052" name="HQRXC812-01-0018-0019" coding="05000" error="192" sample_time="time2xxxx">0.521841</function>
+      <function id="0053" name="HQRXC812-01-0032-0033" coding="05000" error="192" sample_time="time2xxxx">6.019749</function>
+      <function id="0054" name="HQRXC812-01-0034-0035" coding="05000" error="192" sample_time="time2xxxx">7.640106</function>
+    </meter>
+  </data>
+</root>

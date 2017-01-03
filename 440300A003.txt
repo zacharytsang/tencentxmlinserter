@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <common>
+    <building_id>440300A003</building_id>
+    <gateway_id>03</gateway_id>
+    <type>report</type>
+  </common>
+  <data operation="report">
+    <sequence>5966</sequence>
+    <parser>yes</parser>
+    <time>20160520100000</time>
+    <meter id="02" name="3#变压器进线" conn="conn">
+      <function id="0002" name="000000000088-1090" coding="01E00" error="192" sample_time="20160520095501">100160</function>
+      <function id="0041" name="000000000172-1090" coding="01E00" error="192" sample_time="20160520095500">235.100006</function>
+      <function id="0042" name="000000000173-1090" coding="01E00" error="192" sample_time="20160520095500">235.000000</function>
+      <function id="0043" name="000000000174-1090" coding="01E00" error="192" sample_time="20160520100000">235.000000</function>
+      <function id="0044" name="000000000175-1090" coding="01E00" error="192" sample_time="20160520100000">17</function>
+      <function id="0045" name="000000000176-1090" coding="01E00" error="192" sample_time="20160520100000">22</function>
+      <function id="0046" name="000000000177-1090" coding="01E00" error="192" sample_time="20160520100000">29</function>
+    </meter>
+    <meter id="03" name="二三层上部配电" conn="conn">
+      <function id="0003" name="000000000089-1090" coding="01A10" error="192" sample_time="20160520095501">2830.199951</function>
+    </meter>
+    <meter id="04" name="太阳能" conn="conn">
+      <function id="0004" name="000000000090-1090" coding="01B1F" error="192" sample_time="20160520095501">12109.200195</function>
+    </meter>
+    <meter id="05" name="四五层上部配电" conn="conn">
+      <function id="0005" name="000000000091-1090" coding="01A10" error="192" sample_time="20160520095501">7302.000000</function>
+    </meter>
+    <meter id="06" name="六七层上部配电" conn="conn">
+      <function id="0006" name="000000000092-1090" coding="01A10" error="192" sample_time="20160520095501">5331.600098</function>
+    </meter>
+    <meter id="07" name="八九层上部配电" conn="conn">
+      <function id="0007" name="000000000093-1090" coding="01A10" error="192" sample_time="20160520095501">5037.000000</function>
+    </meter>
+    <meter id="08" name="十-十一层上部配电" conn="conn">
+      <function id="0008" name="000000000094-1090" coding="01A10" error="192" sample_time="20160520095501">2292.000000</function>
+    </meter>
+    <meter id="09" name="太阳能（2）" conn="conn">
+      <function id="0009" name="000000000095-1090" coding="01A10" error="192" sample_time="20160520095501">20625.599609</function>
+    </meter>
+    <meter id="10" name="十二-十三上部配电" conn="conn">
+      <function id="0010" name="000000000096-1090" coding="01A10" error="192" sample_time="20160520095501">2448.600098</function>
+    </meter>
+    <meter id="11" name="教学楼用电一" conn="conn">
+      <function id="0011" name="000000000097-1090" coding="01A10" error="192" sample_time="20160520095500">4727</function>
+    </meter>
+    <meter id="12" name="饭堂空调" conn="conn">
+      <function id="0012" name="000000000098-1090" coding="01B20" error="192" sample_time="20160520095500">16886</function>
+    </meter>
+    <meter id="13" name="教学楼用电二" conn="conn">
+      <function id="0013" name="000000000099-1090" coding="01A10" error="192" sample_time="20160520095500">4954.799805</function>
+    </meter>
+    <meter id="14" name="教学楼用电三" conn="conn">
+      <function id="0014" name="000000000100-1090" coding="01A10" error="192" sample_time="20160520095500">6381.600098</function>
+    </meter>
+    <meter id="15" name="医务室" conn="conn">
+      <function id="0015" name="000000000101-1090" coding="01D60" error="192" sample_time="20160520095500">2417.399902</function>
+    </meter>
+    <meter id="16" name="超市洗衣" conn="conn">
+      <function id="0016" name="000000000102-1090" coding="01D20" error="192" sample_time="20160520095500">2604.000000</function>
+    </meter>
+    <meter id="17" name="应急照明" conn="conn">
+      <function id="0017" name="000000000103-1090" coding="01A10" error="192" sample_time="20160520095500">5179.200195</function>
+    </meter>
+    <meter id="18" name="变压器进线4" conn="conn">
+      <function id="0018" name="000000000104-1090" coding="01E00" error="192" sample_time="20160520095501">158980</function>
+      <function id="0047" name="000000000178-1090" coding="01E00" error="192" sample_time="20160520095500">234.199997</function>
+      <function id="0048" name="000000000179-1090" coding="01E00" error="192" sample_time="20160520095500">234.199997</function>
+      <function id="0049" name="000000000180-1090" coding="01E00" error="192" sample_time="20160520100000">234.199997</function>
+      <function id="0050" name="000000000181-1090" coding="01E00" error="192" sample_time="20160520100000">36</function>
+      <function id="0051" name="000000000182-1090" coding="01E00" error="192" sample_time="20160520100000">34</function>
+      <function id="0052" name="000000000183-1090" coding="01E00" error="192" sample_time="20160520100000">33</function>
+    </meter>
+    <meter id="19" name="二三层下部配电" conn="conn">
+      <function id="0019" name="000000000105-1090" coding="01A10" error="192" sample_time="20160520095501">2654.399902</function>
+    </meter>
+    <meter id="20" name="四五层下部配电" conn="conn">
+      <function id="0020" name="000000000106-1090" coding="01A10" error="192" sample_time="20160520095501">10684.200195</function>
+    </meter>
+    <meter id="21" name="六七层下部配电" conn="conn">
+      <function id="0021" name="000000000107-1090" coding="01A10" error="192" sample_time="20160520095501">11455.200195</function>
+    </meter>
+    <meter id="22" name="八九层下部配电" conn="conn">
+      <function id="0022" name="000000000108-1090" coding="01A10" error="192" sample_time="20160520095501">11427.000000</function>
+    </meter>
+    <meter id="23" name="食堂地下室电源" conn="conn">
+      <function id="0023" name="000000000109-1090" coding="01A10" error="192" sample_time="20160520095501">1634.800049</function>
+    </meter>
+    <meter id="24" name="十-十一层下部配电" conn="conn">
+      <function id="0024" name="000000000110-1090" coding="01A10" error="192" sample_time="20160520095501">1545.000000</function>
+    </meter>
+    <meter id="25" name="十二-十三层下部配电" conn="conn">
+      <function id="0025" name="000000000111-1090" coding="01A10" error="192" sample_time="20160520095501">2017.199951</function>
+    </meter>
+    <meter id="26" name="教职工住宅二" conn="conn">
+      <function id="0026" name="000000000112-1090" coding="01A10" error="192" sample_time="20160520095501">22893.000000</function>
+    </meter>
+    <meter id="27" name="教职工住宅一" conn="conn">
+      <function id="0027" name="000000000113-1090" coding="01A10" error="192" sample_time="20160520095501">29070.599609</function>
+    </meter>
+    <meter id="28" name="一层排烟风机" conn="conn">
+      <function id="0028" name="000000000114-1090" coding="01C30" error="192" sample_time="20160520095501">0.000000</function>
+    </meter>
+    <meter id="29" name="弱电机房" conn="conn">
+      <function id="0029" name="000000000115-1090" coding="01A10" error="192" sample_time="20160520095501">550.950012</function>
+    </meter>
+    <meter id="30" name="食堂照明" conn="conn">
+      <function id="0030" name="000000000116-1090" coding="01A10" error="192" sample_time="20160520095501">4132.500000</function>
+    </meter>
+    <meter id="31" name="校园照明" conn="conn">
+      <function id="0031" name="000000000117-1090" coding="01A10" error="192" sample_time="20160520095501">143.100006</function>
+    </meter>
+    <meter id="32" name="篮球场照明" conn="conn">
+      <function id="0032" name="000000000118-1090" coding="01A10" error="192" sample_time="20160520095501">74.849998</function>
+    </meter>
+    <meter id="33" name="文化雕塑墙照明" conn="conn">
+      <function id="0033" name="000000000119-1090" coding="01A10" error="192" sample_time="20160520095501">249.899994</function>
+    </meter>
+    <meter id="34" name="食堂空调预留" conn="conn">
+      <function id="0034" name="000000000120-1090" coding="01B20" error="192" sample_time="20160520095500">1918.800049</function>
+    </meter>
+    <meter id="35" name="消防电梯正压风机1" conn="conn">
+      <function id="0035" name="000000000121-1090" coding="01C10" error="192" sample_time="20160520095500">2645.600098</function>
+    </meter>
+    <meter id="36" name="消防电梯正压风机2" conn="conn">
+      <function id="0036" name="000000000122-1090" coding="01C10" error="192" sample_time="20160520095500">1355.400024</function>
+    </meter>
+    <meter id="37" name="洗衣机房" conn="conn">
+      <function id="0037" name="000000000123-1090" coding="01D20" error="192" sample_time="20160520095500">14368.799805</function>
+    </meter>
+    <meter id="38" name="客梯一" conn="conn">
+      <function id="0038" name="000000000124-1090" coding="01C10" error="192" sample_time="20160520095500">1912.000000</function>
+    </meter>
+    <meter id="39" name="客梯二" conn="conn">
+      <function id="0039" name="000000000125-1090" coding="01C10" error="192" sample_time="20160520095500">595.500000</function>
+    </meter>
+    <meter id="40" name="人防电源" conn="conn">
+      <function id="0040" name="000000000126-1090" coding="01A10" error="192" sample_time="20160520095500">4036.199951</function>
+    </meter>
+  </data>
+</root>

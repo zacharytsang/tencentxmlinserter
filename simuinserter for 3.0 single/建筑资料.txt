@@ -1,0 +1,195 @@
+select * from  BUILDING_INFO where id= 505
+
+505	440300G089	现代之窗大厦	1254	1	440300		477	725 	 480	福田区华强北路现代之窗	114.093816	22.549739	2001			深圳市紫衡技术有限公司	82587.88			82587.88	1.00			0	1	2	3	3	0	1	0	0												2					2012-01-08 00:00:00						其中裙楼1~5层作商业使用。6层以上为办公楼，负1层为停车场，负2层为设备房。A、B座1~5层为商场，均采用全空气系统；A座6~25层为办公室，采用风机盘管+新风系统；B座6~30层为办公室，采用分体空调，约400台，制冷机房设于负二层，冷却塔位于B座屋	M,	M			-10	2012-01-08 00:00:00	1		-1	
+
+
+
+
+
+select * from BUILDING_BRANCH_INFO where buildingid = 505
+
+18085	505	000024890134	1#冷水机组		001	300			41	1		1		1	1				2			2016-01-26 14:58:21	system
+
+
+
+
+
+select * from BUILD_EXPRESSION where PARENT_BRANCH=10610;
+
+
+select * from COMPONENT_EXPRESSION ;
+
+select * from BUILD_EXPRESSION ;
+
+
+
+select * FROM  BCEH_440300G089 where COMPONENTID = 10610 ORDER BY YEARMONTHDAYHOUR
+
+
+
+select * from BUILDING_COMPONENT where BUILDINGID=505
+        建筑编号 分项code               类型
+10610	505	01000	电耗量	        41
+10611	505	01A00	照明插座用电	41
+10612	505	01B00	空调用电	41
+10613	505	01C00	动力用电	41
+10614	505	01D00	特殊用电	41
+11775	505	05000	集中供冷量	122
+
+
+
+select * from COMPONENT_EXPRESSION where PARENT_COMPONENT=10611
+43402	10611	18070	-	1
+43403	10611	18069	-	1
+43404	10611	18092	-	1
+43391	10611	18052	+	1
+43392	10611	18062	+	1
+43408	10611	18085	-	1
+43409	10611	18082	-	1
+
+
+21044
+18091
+18084
+18083
+18080
+18051
+18090
+18087
+18089
+18079
+18078
+18076
+18075
+18073
+18067
+18064
+18056
+18055
+18054
+18077
+18074
+18070
+18069
+18092
+18052
+18062
+18085
+18082
+18081
+18072
+18071
+18068
+
+
+
+select * from BBEH_440300G089 where BRANCHID in (
+21044,
+18091,
+18084,
+18083,
+18080,
+18051,
+18090,
+18087,
+18089,
+18079,
+18078,
+18076,
+18075,
+18073,
+18067,
+18064,
+18056,
+18055,
+18054,
+18077,
+18074,
+18070,
+18069,
+18092,
+18052,
+18062,
+18085,
+18082,
+18081,
+18072,
+18071,
+18068
+) and YEARMONTHDAYHOUR=2016101214
+
+
+
+
+select CHILD_COMPONENT,(case operator_component when '-' then -1 else 1  end) oper from COMPONENT_EXPRESSION where PARENT_COMPONENT=10611
+
+select * from BBEH_440300G089 where BRANCHID=18082
+
+
+
+
+
+
+SELECT * from BCEH_440300G089 where YEARMONTHDAYHOUR>=2016101500 and YEARMONTHDAYHOUR<2016101600 and COMPONENTID=10611
+2792615.073230
+
+
+select * from BUILDING_COMPONENT_DAY where COMPONENTID=10611 and BUILDINGID=505 and YEARMONTHDAY=20161016
+2792615.073363
+
+
+
+
+
+
+
+
+	/**
+	 * 计算支路的小时用量数据；
+	 */
+	void CalculateBranchByHour(BuildingGatherFunction bgf) throws SQLException
+	{	
+		String branchType = bgf.getBranchtype();
+		if(branchType == null)
+		{//支路类型为空的数据，一般是未配置或者不需要配置，如， TEMP, 对应的TEMP1， TEMP2,是不需要计算的
+			//System.out.println(branchType);
+			//logger.debug("未配置的支路，支路类型为空！支路编号："+ bgf.getMeterName() +" function:" + bgf.getFunctionName());
+			System.out.println("未配置的支路，支路类型为空！支路编号："+ bgf.getMeterName() +" function:" + bgf.getFunctionName());
+			return;
+		}
+		// 排除非能耗数据，须完善
+		if( branchType.equals("电(electricity)")) 
+		{
+			//按小时计算支路能耗
+			this.calculateBranchByHour( bgf, "energy"); 
+		}
+		else if( branchType.equals("水(water)")) 
+		{	
+			//按小时计算支路水耗
+			this.calculateBranchByHour( bgf, "water");
+		}
+		else if( branchType.equals("集中供冷量(cool)")) 
+		{ }
+		else 
+		{
+			System.out.println("未处理的支路类型：" +branchType);
+		}	
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
